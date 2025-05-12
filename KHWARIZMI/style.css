@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #af40ff, #5b42f3, #00ddeb);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+h2 {
+  font-size: 2em;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ffffff;
+    align-items: center;
+    align-content: center;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ffffff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+a{
+    list-style: none;
+    color: #ffffff;
+    text-decoration: none;
+
+
+}
+
+button {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    box-shadow: 0 0 15px #ffffff;
+    font-size: 280px;
+    padding: 310px;
+    font-family: 'Orbitron', sans-serif;
+    align-items: center;
+    background-image: linear-gradient(144deg, #e4beff, #b9aeff 50%, #b0faff);
+    border: 0;
+    border-radius: 30px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    line-height: 5em;
+    max-width: 90%;
+    min-width: 450px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:active,
+  button:hover {
+    outline: 0;
+  }
+  
+  button span {
+    background-color: rgb(5, 6, 45);
+    padding: 77px 78px;
+    border-radius: 28px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  button:hover span {
+    color: #370a8b;
+    background: none;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+  
+  /* From Uiverse.io by Yaseen549 */ 
+.input {
+    color: rgb(255, 254, 254);
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px 100px;
+    background: #ccb0ff;
+    max-width: 280px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+  }
+  
+  .input:active {
+    border: #b9aeff;
+
+  }
+
+
+  
